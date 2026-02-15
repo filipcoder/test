@@ -1,0 +1,13 @@
+<svg width="250" height="110" viewBox="0 0 250 110" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="g1" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0A4F9B"/>
+      <stop offset="100%" stop-color="#1FA2FF"/>
+    </linearGradient>
+  </defs>
+  <path d="M22 40C35 15 65 10 84 24C97 8 124 9 139 27C150 18 173 21 188 39" stroke="#1a2f5f" stroke-width="7" stroke-linecap="round"/>
+  <path d="M22 56C70 35 124 36 188 56" stroke="url(#g1)" stroke-width="6" stroke-linecap="round"/>
+  <path d="M39 57C83 40 124 40 172 57" stroke="#D9E4F5" stroke-width="7" stroke-linecap="round"/>
+  <text x="20" y="88" font-size="36" font-family="Inter, Arial, sans-serif" font-weight="800" fill="url(#g1)">WISLA</text>
+  <text x="77" y="104" font-size="16" font-family="Inter, Arial, sans-serif" font-weight="600" fill="#58657d" letter-spacing="4">MOTORS</text>
+</svg>
