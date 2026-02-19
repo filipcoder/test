@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Wisla Motors | Quality Used Cars in Bolton</title>
+    <meta
+      name="description"
+      content="Wisla Motors offers hand-picked used cars in Bolton, UK with prices up to £35,000. Browse our latest stock and book a test drive today."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <nav class="nav container">
+        <a href="index.html" class="brand" aria-label="Wisla Motors home">
+          <img src="assets/wisla-logo.svg" alt="Wisla Motors" class="brand-logo" />
+        </a>
+        <button class="menu-toggle" aria-expanded="false" aria-controls="nav-links">
+          ☰
+        </button>
+        <ul id="nav-links" class="nav-links">
+          <li><a href="#stock">Stock</a></li>
+          <li><a href="#why-us">Why Us</a></li>
+          <li><a href="#finance">Finance</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="container hero-grid">
+          <div>
+            <p class="eyebrow">Used Cars in Bolton, UK</p>
+            <h1>Premium used cars under <span>£35,000</span></h1>
+            <p class="hero-copy">
+              At Wisla Motors, we source reliable, stylish and performance-ready vehicles at great value.
+              Every car is inspected, prepared, and ready for your next drive.
+            </p>
+            <div class="hero-actions">
+              <a class="btn btn-primary" href="#stock">Browse Cars</a>
+              <a class="btn btn-secondary" href="#contact">Book a Test Drive</a>
+            </div>
+            <div class="stats">
+              <div><strong>100+</strong><span>Cars sold</span></div>
+              <div><strong>4.9★</strong><span>Customer rating</span></div>
+              <div><strong>365 days</strong><span>Warranty</span></div>
+            </div>
+          </div>
+          <div class="hero-card">
+            <h2>This Week's Spotlight</h2>
+            <div class="carousel" data-carousel-id="spotlight">
+              <button class="carousel-btn prev" aria-label="Previous spotlight image">‹</button>
+              <div class="carousel-track"></div>
+              <button class="carousel-btn next" aria-label="Next spotlight image">›</button>
+            </div>
+            <p class="car-name" id="spotlight-name">BMW 330e M Sport (2021)</p>
+            <ul>
+              <li>19,000 miles</li>
+              <li>Automatic Hybrid</li>
+              <li>Full Service History</li>
+            </ul>
+            <p class="price">£29,995</p>
+          </div>
+        </div>
+      </section>
+
+      <section id="stock" class="section container">
+        <div class="section-header with-action">
+          <div>
+            <h2>Latest cars in stock</h2>
+            <p>Hand-selected quality vehicles, all priced £35,000 and below.</p>
+          </div>
+          <a class="btn btn-secondary" href="stock.html">View all</a>
+        </div>
+        <div class="car-grid" id="car-grid"></div>
+      </section>
+
+      <section id="why-us" class="section muted">
+        <div class="container perks-grid">
+          <article>
+            <h3>Fully checked vehicles</h3>
+            <p>Each car goes through a detailed mechanical and cosmetic inspection before sale.</p>
+          </article>
+          <article>
+            <h3>Part exchange welcome</h3>
+            <p>Upgrade with ease. Bring your current car and we'll give you a fair valuation.</p>
+          </article>
+          <article>
+            <h3>Warranty options</h3>
+            <p>Drive with confidence using flexible warranty plans and aftercare support.</p>
+          </article>
+        </div>
+      </section>
+
+      <section id="finance" class="section container finance">
+        <h2>Flexible finance made simple</h2>
+        <p>
+          Spread the cost with tailored finance packages. Fast decisions, transparent terms,
+          and support from start to finish.
+        </p>
+        <a href="#contact" class="btn btn-primary">Get a Finance Quote</a>
+      </section>
+    </main>
+
+    <footer id="contact" class="site-footer">
+      <div class="container footer-grid">
+        <div>
+          <h3>Wisla Motors</h3>
+          <p>Quality used cars in Bolton, Greater Manchester.</p>
+        </div>
+        <div>
+          <h4>Visit Us</h4>
+          <p>Unit 8, Bradshawgate<br />Bolton, BL1 1DR</p>
+        </div>
+        <div>
+          <h4>Contact</h4>
+          <p>01204 555 123<br />sales@wislamotors.co.uk</p>
+        </div>
+      </div>
+      <p class="copyright">© <span id="year"></span> Wisla Motors. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
